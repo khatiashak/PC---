@@ -102,46 +102,4 @@ public class OrderController : ControllerBase
 
         return Created($"/api/Order/{ord.OrderId}", ord);
     }
-<<<<<<< HEAD
-}
-=======
-
-
-    /// <summary>
-    /// returns the list of orders today by userid
-    /// </summary>
-    /// <param name="UserId">Order object</param>
-    /// <returns></returns>
-
-
-    [HttpGet]
-    [ProducesResponseType(typeof(OrderModel), 200)]
-    public async Task<IActionResult> GetOrderToday(int UserId)
-    {
-        var currentDate = DateTime.Today;
-        var data = await _repository.GetByIdAsync(UserId);
-
-        if (data == null)
-        {
-            return NotFound();
-        }
-
-        return Ok(new Order
-        {
-
-            UserId = data.UserId,
-            CartId = data.CartId,
-            Date = data.Date
-
-        });
-
-   // [HttpGet]
-    //[ProducesResponseType(typeof(OrderModel), 200)]
-    // IActionResult GetOrders(int userId, DateOnly date)
-      //  {
-      //      var orders = _repository.GetOrdersByUserIdAndDate(userId, date);
-      //
-      //      return Ok(orders);
-      //  }
-    }
 }
