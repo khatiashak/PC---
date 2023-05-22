@@ -1,0 +1,348 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ShoppingApi</name>
+    </assembly>
+    <members>
+        <member name="M:ShoppingApi.Controllers.CartController.Get(System.Int32)">
+            <summary>
+            gets a cart
+            </summary>
+            <param name="CartId">identification number of cart</param>
+            <returns></returns>
+        </member>
+        <member name="M:ShoppingApi.Controllers.CartController.Delete(System.Int32)">
+            <summary>
+            deletes a cart
+            </summary>
+            <param name="CartId">identification number of cart</param>
+            <returns></returns>
+        </member>
+        <member name="M:ShoppingApi.Controllers.CartController.Update(System.Int32,ShoppingApi.ViewModel.CartModel)">
+            <summary>
+            updates cart
+            </summary>
+            <param name="CartId">Cart object</param>
+            <returns></returns>
+            
+        </member>
+        <member name="M:ShoppingApi.Controllers.CartController.AddCart(ShoppingApi.ViewModel.CartModel)">
+            <summary>
+            adds cart
+            </summary>
+            <param name="CartId">Cart object</param>
+            <returns></returns>
+        </member>
+        <member name="M:ShoppingApi.Controllers.CategoriesController.Get(System.Int32)">
+            <summary>
+            gets a user account by id
+            </summary>
+            <param name="CategoryId">identification number of user</param>
+            <returns></returns>
+        </member>
+        <member name="M:ShoppingApi.Controllers.CategoriesController.AddCategory(ShoppingApi.ViewModel.CategoriesModel)">
+            <summary>
+            adds category
+            </summary>
+            <param name="CategoryId">Categories object</param>
+            <returns></returns>
+        </member>
+        <member name="M:ShoppingApi.Controllers.DeliveriesController.Get(System.Int32)">
+            <summary>
+            gets a user account by id
+            </summary>
+            <param name="DeliveryId">identification number of user</param>
+            <returns></returns>
+        </member>
+        <member name="M:ShoppingApi.Controllers.DeliveriesController.AddDeliveries(ShoppingApi.ViewModel.DeliveriesModel)">
+            <summary>
+            adds delivery
+            </summary>
+            <param name="DeliveryId">Deliveries object</param>
+            <returns></returns>
+        </member>
+        <member name="M:ShoppingApi.Controllers.OrderController.Get(System.Int32)">
+            <summary>
+            gets an order
+            </summary>
+            <param name="OrderId">identification number of order</param>
+            <returns></returns>
+        </member>
+        <member name="M:ShoppingApi.Controllers.OrderController.AddOrder(ShoppingApi.ViewModels.OrderModel)">
+            <summary>
+            adds order
+            </summary>
+            <param name="OrderId">Order object</param>
+            <returns></returns>
+        </member>
+        <member name="M:ShoppingApi.Controllers.OrderController.GetOrderToday(System.Int32)">
+            <summary>
+            returns the list of orders today by userid
+            </summary>
+            <param name="UserId">Order object</param>
+            <returns></returns>
+        </member>
+        <member name="M:ShoppingApi.Controllers.PaymentController.Get(System.Int32)">
+            <summary>
+            gets a Payment by id
+            </summary>
+            <param name="PaymentId">identification number of Payment</param>
+            <returns></returns>
+        </member>
+        <member name="M:ShoppingApi.Controllers.PaymentController.AddPayment(ShoppingApi.ViewModels.PaymentModel)">
+            <summary>
+            adds Payment
+            </summary>
+            <param name="PaymentId">User Accounts object</param>
+            <returns></returns>
+        </member>
+        <member name="M:ShoppingApi.Controllers.ProductsController.Get(System.Int32)">
+            <summary>
+            gets a product by id
+            </summary>
+            <param name="ProductId">identification number of a product</param>
+            <returns></returns>
+        </member>
+        <member name="M:ShoppingApi.Controllers.ProductsController.AddProductId(ShoppingApi.ViewModels.ProductsModel)">
+            <summary>
+            adds product
+            </summary>
+            <param name="ProductId">Products object</param>
+            <returns></returns>
+        </member>
+        <member name="M:ShoppingApi.Controllers.TransactionController.Get(System.Int32)">
+            <summary>
+            gets a Transaction by id
+            </summary>
+            <param name="TransactionId">identification number of Transaction</param>
+            <returns></returns>
+        </member>
+        <member name="M:ShoppingApi.Controllers.TransactionController.AddCart(ShoppingApi.ViewModels.TransactionModel)">
+            <summary>
+            adds transaction
+            </summary>
+            <param name="TransactionId">Transaction object</param>
+            <returns></returns>
+        </member>
+        <member name="M:ShoppingApi.Controllers.UserAccountsController.Get(System.Int32)">
+            <summary>
+            gets a user account by id
+            </summary>
+            <param name="UserId">identification number of user</param>
+            <returns></returns>
+        </member>
+        <member name="M:ShoppingApi.Controllers.UserAccountsController.AddCart(ShoppingApi.ViewModels.UserAccountsModel)">
+            <summary>
+            adds user
+            </summary>
+            <param name="UserId">User Accounts object</param>
+            <returns></returns>
+        </member>
+        <member name="M:ShoppingApi.Controllers.UserTypesController.Get(System.Int32)">
+            <summary>
+            gets a type by id
+            </summary>
+            <param name="TypeID">identification number of type</param>
+            <returns></returns>
+        </member>
+        <member name="M:ShoppingApi.Controllers.UserTypesController.AddUserTypes(ShoppingApi.ViewModels.UserTypesModel)">
+            <summary>
+            adds user type
+            </summary>
+            <param name="TypeID">User Type object</param>
+            <returns></returns>
+        </member>
+        <member name="T:ShoppingApi.Migrations.CreatingDatabaseForShoppingDB">
+            <inheritdoc />
+        </member>
+        <member name="M:ShoppingApi.Migrations.CreatingDatabaseForShoppingDB.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:ShoppingApi.Migrations.CreatingDatabaseForShoppingDB.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:ShoppingApi.Migrations.CreatingDatabaseForShoppingDB.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="P:ShoppingApi.ViewModel.CartModel.ProductId">
+            <summary>
+            Identification Number of Product
+            </summary>
+        </member>
+        <member name="P:ShoppingApi.ViewModel.CartModel.UserId">
+            <summary>
+            Identification Number of User
+            </summary>
+        </member>
+        <member name="P:ShoppingApi.ViewModel.CartModel.Count">
+            <summary>
+            Number of Carts ( presumably)
+            </summary>
+        </member>
+        <member name="P:ShoppingApi.ViewModel.CategoriesModel.CategoryName">
+            <summary>
+            Name of the Category
+            </summary>
+        </member>
+        <member name="P:ShoppingApi.ViewModel.CategoriesModel.Description">
+            <summary>
+            Description of the category
+            </summary>
+        </member>
+        <member name="P:ShoppingApi.ViewModel.DeliveriesModel.UserId">
+            <summary>
+            Identification Number of user
+            </summary>
+        </member>
+        <member name="P:ShoppingApi.ViewModel.DeliveriesModel.Date">
+            <summary>
+            Date of delivery
+            </summary>
+        </member>
+        <member name="P:ShoppingApi.ViewModels.OrderModel.UserId">
+            <summary>
+            Identification Number of User
+            </summary>
+        </member>
+        <member name="P:ShoppingApi.ViewModels.OrderModel.CartId">
+            <summary>
+            Identification Number of Cart
+            </summary>
+        </member>
+        <member name="P:ShoppingApi.ViewModels.OrderModel.Date">
+            <summary>
+            date of order
+            </summary>
+        </member>
+        <member name="P:ShoppingApi.ViewModels.PaymentModel.ProductId">
+            <summary>
+            Identification Number of Product
+            </summary>
+        </member>
+        <member name="P:ShoppingApi.ViewModels.PaymentModel.Quantity">
+            <summary>
+            Number of Products that are paid
+            </summary>
+        </member>
+        <member name="P:ShoppingApi.ViewModels.PaymentModel.Date">
+            <summary>
+            date of payment
+            </summary>
+        </member>
+        <member name="P:ShoppingApi.ViewModels.PaymentModel.Amount">
+            <summary>
+            Amount of Payments
+            </summary>
+        </member>
+        <member name="P:ShoppingApi.ViewModels.PaymentModel.UserId">
+            <summary>
+            Identification Number of User
+            </summary>
+        </member>
+        <member name="P:ShoppingApi.ViewModels.ProductsModel.CategoryID">
+            <summary>
+            Identification Number of Category
+            </summary>
+        </member>
+        <member name="P:ShoppingApi.ViewModels.ProductsModel.Name">
+            <summary>
+            Name of Category
+            </summary>
+        </member>
+        <member name="P:ShoppingApi.ViewModels.ProductsModel.Price">
+            <summary>
+            price of product
+            </summary>
+        </member>
+        <member name="P:ShoppingApi.ViewModels.ProductsModel.Count">
+            <summary>
+            Number of products
+            </summary>
+        </member>
+        <member name="P:ShoppingApi.ViewModels.ProductsModel.Description">
+            <summary>
+            Description of a category
+            </summary>
+        </member>
+        <member name="P:ShoppingApi.ViewModels.ProductsModel.UserId">
+            <summary>
+            Identification Number of User
+            </summary>
+        </member>
+        <member name="P:ShoppingApi.ViewModels.TransactionModel.TransactionType">
+            <summary>
+            Type of Transaction
+            </summary>
+        </member>
+        <member name="P:ShoppingApi.ViewModels.TransactionModel.Description">
+            <summary>
+            Description of a transaction
+            </summary>
+        </member>
+        <member name="P:ShoppingApi.ViewModels.TransactionModel.UserId">
+            <summary>
+            Identification Number of User
+            </summary>
+        </member>
+        <member name="P:ShoppingApi.ViewModels.TransactionModel.Date">
+            <summary>
+            date of transaction
+            </summary>
+        </member>
+        <member name="P:ShoppingApi.ViewModels.UserAccountsModel.UserId">
+            <summary>
+            Identification Number of User
+            </summary>
+        </member>
+        <member name="P:ShoppingApi.ViewModels.UserAccountsModel.TypeId">
+            <summary>
+            Identification Number of Account Type
+            </summary>
+        </member>
+        <member name="P:ShoppingApi.ViewModels.UserAccountsModel.Name">
+            <summary>
+            Name of an account
+            </summary>
+        </member>
+        <member name="P:ShoppingApi.ViewModels.UserAccountsModel.Age">
+            <summary>
+            age of an user
+            </summary>
+        </member>
+        <member name="P:ShoppingApi.ViewModels.UserAccountsModel.Gender">
+            <summary>
+            Gender of an user
+            </summary>
+        </member>
+        <member name="P:ShoppingApi.ViewModels.UserAccountsModel.Address">
+            <summary>
+            Address of an user
+            </summary>
+        </member>
+        <member name="P:ShoppingApi.ViewModels.UserAccountsModel.ContactNumber">
+            <summary>
+            ContactNumber of an user
+            </summary>
+        </member>
+        <member name="P:ShoppingApi.ViewModels.UserAccountsModel.UserName">
+            <summary>
+            name of an user
+            </summary>
+        </member>
+        <member name="P:ShoppingApi.ViewModels.UserAccountsModel.Password">
+            <summary>
+            Password of an user
+            </summary>
+        </member>
+        <member name="P:ShoppingApi.ViewModels.UserTypesModel.TypeName">
+            <summary>
+            Name of a type
+            </summary>
+        </member>
+        <member name="P:ShoppingApi.ViewModels.UserTypesModel.Description">
+            <summary>
+            Description of a type
+            </summary>
+        </member>
+    </members>
+</doc>
