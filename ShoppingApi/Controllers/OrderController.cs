@@ -1,7 +1,6 @@
 ﻿using ShoppingApi.Models;
 using ShoppingApi.Repository;
 using Microsoft.AspNetCore.Mvc;
-using ShoppingApi.ViewModel;
 using ShoppingApi.ViewModels;
 
 namespace ShoppingApi.Controllers;
