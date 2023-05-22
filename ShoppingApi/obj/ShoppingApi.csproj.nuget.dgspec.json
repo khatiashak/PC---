@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PC\\source\\repos\\ShoppingApi\\ShoppingApi\\ShoppingApi.csproj": {}
+    "C:\\Users\\PC\\source\\repos\\PC2\\ShoppingApi\\ShoppingApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PC\\source\\repos\\ShoppingApi\\ShoppingApi\\ShoppingApi.csproj": {
+    "C:\\Users\\PC\\source\\repos\\PC2\\ShoppingApi\\ShoppingApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PC\\source\\repos\\ShoppingApi\\ShoppingApi\\ShoppingApi.csproj",
+        "projectUniqueName": "C:\\Users\\PC\\source\\repos\\PC2\\ShoppingApi\\ShoppingApi.csproj",
         "projectName": "ShoppingApi",
-        "projectPath": "C:\\Users\\PC\\source\\repos\\ShoppingApi\\ShoppingApi\\ShoppingApi.csproj",
+        "projectPath": "C:\\Users\\PC\\source\\repos\\PC2\\ShoppingApi\\ShoppingApi.csproj",
         "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PC\\source\\repos\\ShoppingApi\\ShoppingApi\\obj\\",
+        "outputPath": "C:\\Users\\PC\\source\\repos\\PC2\\ShoppingApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",

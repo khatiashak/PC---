@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "avH8070lqgEeEjMPfJFPOnhU+9PRFwOaRwTs+Q/wudxrWMHIogKQdNu1kdJz8vg31e4wbaSMGGGDcU0vnzHX9Q==",
+  "dgSpecHash": "m0eX2pD8TFmRxs1K0vHiB+nAYMbObEeuFf+9CSvsdI7hIc6WK2mr4YQ8wLIhFKMLxnpiM3XzT9AOC9eWSew35A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\PC\\source\\repos\\ShoppingApi\\ShoppingApi\\ShoppingApi.csproj",
+  "projectFilePath": "C:\\Users\\PC\\source\\repos\\PC2\\ShoppingApi\\ShoppingApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PC\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
